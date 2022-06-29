@@ -1,2 +1,0 @@
-# RustMaps
-Only my RustMaps
