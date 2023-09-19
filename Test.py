@@ -28,7 +28,7 @@ def list_files(directory, indent=""):
     except PermissionError as e:
         print(f"{indent}Fehler beim Zugriff auf {directory}: {str(e)}")
 
-input_path = input("Version 0.1\nBitte gib den Pfad zum Ordner an: ")
+input_path = input("Version 0.2\nBitte gib den Pfad zum Ordner an: ")
 
 try:
     list_files(input_path)
