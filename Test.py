@@ -33,7 +33,7 @@ input_path = input("Bitte gib den Pfad zum Ordner an: ")
 try:
     list_files(input_path)
 except Exception as e:
-    print(f"Fehler beim Durchsuchen des Ordners: {str(e)}")
+    print(f"Fehler beim Durchsuchen des Ordnesssssssrs: {str(e)}")
 
 print(f"\nDurchsuchte Dateien: {file_count}")
 print(f"Durchsuchte Ordner: {folder_count}")
